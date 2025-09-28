@@ -106,3 +106,39 @@ with open('results.csv', 'w', newline='') as file:
     writer.writerows(record)
 ```
 
+## Data Visualization Platform
+
+### Overview
+SkyTrack Solutions provides comprehensive airline data analytics through interactive visualizations and business intelligence reporting.
+
+### Key Features
+
+#### Visualization Suite
+- **Pie Charts** - Market share analysis across airline carriers
+- **Bar Charts** - Booking platform performance metrics  
+- **Horizontal Charts** - Airport traffic ranking and capacity
+- **Line Charts** - Flight status and operational efficiency
+- **Histograms** - Ticket pricing distribution patterns
+- **Scatter Plots** - Baggage weight and pricing correlations
+
+#### Interactive Analytics
+- Real-time data visualization with Plotly integration
+- Dynamic filtering and hover-based insights
+- Automatic chart updates from database changes
+
+#### Business Reporting
+- Multi-sheet Excel exports with professional formatting
+- Statistical analysis across airlines, airports, and booking platforms
+- Automated insight generation for strategic decision-making
+
+### Technical Stack
+- **pandas** - Data processing and analysis
+- **matplotlib** - Static chart generation
+- **plotly** - Interactive dashboard development
+- **sqlalchemy** - Database query optimization
+- **openpyxl** - Excel automation and formatting
+- **psycopg2-binary** - PostgreSQL connectivity
+
+### Business Impact
+Transforms raw airline data into actionable insights for operational efficiency, pricing strategies, and market analysis across the aviation industry.
+
