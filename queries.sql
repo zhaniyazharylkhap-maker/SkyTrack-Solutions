@@ -93,3 +93,6 @@ SELECT
     COUNT(DISTINCT departure_airport_id) as departure_airports,
     COUNT(DISTINCT arrival_airport_id) as arrival_airports
 FROM flights;
+
+
+
